@@ -9,7 +9,7 @@ for VM, use NAT network and forward required ports to host machine
 - 31080/31081->31080/31081 for go app in k8s
 
 
-Update  VMnet8 config, to make sure it's in the same subnet as the IP of virtual machine:Ubuntu16
+Updated VMnet8 config, to make sure it's in the same subnet as the IP of virtual machine:Ubuntu16
 
 
 
@@ -18,7 +18,7 @@ Update  VMnet8 config, to make sure it's in the same subnet as the IP of virtual
 ($ ssh user@localhost -p 2222)
 
 
-upgrade the kernel to the 16.04 latest
+upgraded the kernel to the 16.04 latest with "apt-get update"
 
 
 
@@ -27,7 +27,7 @@ upgrade the kernel to the 16.04 latest
 
 
 ### Task 3: create a demo group/project in gitlab
-Expect source code at http://127.0.0.1:8080/demo/go-web-hello-world
+Expected source code at http://127.0.0.1:8080/demo/go-web-hello-world
 
 
 
@@ -56,7 +56,7 @@ please note 8082 was used by other app.
 
 Expect output:
 ```
-curl http://127.0.0.1:8082
+curl http://127.0.0.1:8083
 Go Web Hello World!
 ```
 
