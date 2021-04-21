@@ -11,7 +11,7 @@ for VM, use NAT network and forward required ports to host machine
 
 Updated VMnet8 config, to make sure it's in the same subnet as the IP of virtual machine:Ubuntu16
 
-
+![](./images/1.jpg)
 
 ### Task 1: Update system
 
